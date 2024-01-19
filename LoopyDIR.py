@@ -16,7 +16,7 @@ user_input = user_input + "/"
 r = requests.get('{}'.format(user_input))
 print('[{}] {} successfully witch {}{}'.format(0,user_input, r.status_code, " ✔️"))
 
-diccionario = open('./LoopyDIR/directorysmall.txt', 'r')
+diccionario = open('directorysmall.txt', 'r')
 diccionario_lines = diccionario.readlines()
 
 count = 0
