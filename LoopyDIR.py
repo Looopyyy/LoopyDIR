@@ -29,9 +29,6 @@ for direc in diccionario_lines:
         s = requests.get('{}'.format(s_direct_format))
         if r.status_code == 200:
             print('[{}] {} successfully witch {}{}'.format(count, r_direct_format, r.status_code, " ✔️"))
-        else:
-            print('[{}] {} error witch {}{}'.format(count, r_direct_format, r.status_code, " ❌"))
         if s.status_code == 200:
             print('[{}] {} successfully witch {}{}'.format(count, s_direct_format, r.status_code, " ✔️"))
-        else:
-            print('[{}] {} error witch {}{}'.format(count, r_direct_format, r.status_code, " ❌"))
+   
