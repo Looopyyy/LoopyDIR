@@ -29,3 +29,4 @@ Clone the repository and navigate into the project directory:
 ```sh
 git clone https://github.com/yourusername/LoopyDIR.git
 cd LoopyDIR
+pip install -r requirements.txt
